@@ -6,34 +6,47 @@
     <title>Globals</title>
 </head>
 <body>
-    <?php
-    // $GLOBALS 
+        <?php
+        // $GLOBALS 
 
-    function deneme(){
-        $GLOBALS["Isim"] = "The Best Hacker";
-    }
+        function deneme(){
+            $GLOBALS["Isim"] = "The Best Hacker";
+        }
 
-    deneme();
-
-
-    echo "$Isim";
-    echo "</br>" . $GLOBALS["Isim"];
-    ?>
+        deneme();
 
 
-
-<?php
-
-$GLOBALS["Isim"] = "The Best Hackers";
-
-function deneme2(){
-    echo "</br>" . $GLOBALS["Isim"];
-
-}
-
-deneme2();
+        echo "$Isim";
+        echo "</br>" . $GLOBALS["Isim"];
+        ?>
 
 
-?>
+
+        <?php
+
+
+        $GLOBALS["Isim"] = "The Best Hackers";
+
+        function deneme2(){
+            echo "</br>" . $GLOBALS["Isim"];
+
+        }
+
+        deneme2();
+
+
+        ?>
+
+        <?php
+            $Isim = "The Besttt";
+            function deneme3(){
+                echo "</br>";
+                echo $GLOBALS["Isim"];
+                echo "</br>" . $GLOBALS["Isim"];
+            }
+            deneme3();
+
+        ?>
+
 </body>
 </html>
