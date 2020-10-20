@@ -12,17 +12,17 @@
 
 
     switch($Saat){
-    case (($Saat <= 10) and ($Saat >=20));
+        case (($Saat <= 10) and ($Saat >=20)):
         echo "Saat Suanda : {$Saat} ";
     break;
 
 
-    case  (($Saat == 20) and ($Saat < 20));
+        case  (($Saat == 20) and ($Saat < 20)):
         echo "Saat Suanda : {$Saat}";
     break;
 
 
-    case (($Saat == 10) and ($Saat < 20));
+        case (($Saat == 10) and ($Saat < 20)):
         echo "Saat Suanda : {$Saat}";
     break;
 
