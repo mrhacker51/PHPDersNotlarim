@@ -39,7 +39,7 @@
 
 
     else{
-        "Try Again .... [ Error ]";
+        echo "Try Again .... [ Error ]";
     }
 
 
