@@ -23,7 +23,7 @@
 	echo "</pre>";
 
 
-	echo "Kullanicinin Adi = " 	  . $result[0] . "</br>";
+	echo "Kullanicinin Adi = "    . $result[0] . "</br>";
 	echo "Kullanicinin SoyAdi = " . $result[1] . "</br>";
 	echo "Kullanicinin Yasi = "   . $result[2] . "</br>";
 	echo "Kullanicinin Boyu = "   . $result[3];
